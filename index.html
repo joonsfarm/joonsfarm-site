@@ -1,28 +1,105 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Joon's Farm</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>JOONS FARM</title>
+
   <style>
     body {
-      background: #f4f1ea;
-      text-align: center;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f1ea;
+      color: #ffffff;
       font-family: Arial, sans-serif;
-      padding: 100px 20px;
+
+      height: 100vh;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      text-align: center;
+
+      background-image:
+        linear-gradient(
+          rgba(0,0,0,0.35),
+          rgba(0,0,0,0.35)
+        ),
+        url('https://images.unsplash.com/photo-1506744038136-46273834b3fb');
+
+      background-size: cover;
+      background-position: center;
     }
+
+    .container {
+      padding: 20px;
+      max-width: 700px;
+    }
+
     h1 {
-      font-size: 42px;
-      margin-bottom: 20px;
+      font-size: 56px;
+      letter-spacing: 4px;
+      margin-bottom: 30px;
     }
+
+    h2 {
+      font-size: 30px;
+      font-weight: normal;
+      line-height: 1.5;
+      margin-bottom: 25px;
+    }
+
     p {
-      font-size: 18px;
-      color: #555;
+      font-size: 20px;
+      line-height: 1.8;
+      color: #f0f0f0;
+    }
+
+    .coming {
+      margin-top: 50px;
+      font-size: 14px;
+      letter-spacing: 3px;
+      opacity: 0.8;
+    }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 40px;
+      }
+
+      h2 {
+        font-size: 24px;
+      }
+
+      p {
+        font-size: 17px;
+      }
     }
   </style>
 </head>
+
 <body>
-  <h1>Welcome to Joon's Farm</h1>
-  <p>느리와 함께하는 느린 농장 이야기</p>
-  <p>Coming Soon</p>
+
+  <div class="container">
+
+    <h1>JOONS FARM</h1>
+
+    <h2>
+      What is growing at JOONS FARM?
+    </h2>
+
+    <p>
+      JOONS FARM에서는<br>
+      무엇이 자라고 있을까요?
+    </p>
+
+    <div class="coming">
+      COMING SOON
+    </div>
+
+  </div>
+
 </body>
 </html>
