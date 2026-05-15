@@ -56,6 +56,7 @@
       width: 100vw;
       height: 100vh;
       object-fit: cover;
+      object-position: center center;
       opacity: 0;
       animation: fade 42s infinite;
     }
@@ -147,14 +148,17 @@
 <body>
 
   <div class="slideshow">
-    <img src="sunset.jpg">
-    <img src="fogfarm.jpg">
-    <img src="springroad.jpg">
-    <img src="peony.jpg">
-    <img src="sunsetblade.jpg">
-    <img src="father.jpg">
-  </div>
-
+  <img src="sunset.jpg" style="object-position:center center;">
+  <img src="fogfarm.jpg" style="object-position:center center;">
+  
+  <img src="springroad.jpg" style="object-position:center bottom;">
+  
+  <img src="peony.jpg" style="object-position:center top;">
+  
+  <img src="sunsetblade.jpg" style="object-position:center center;">
+  
+  <img src="father.jpg" style="object-position:center top;">
+</div>
   <div class="container">
     <img src="logo.png" alt="JOONS FARM logo" class="logo">
 
